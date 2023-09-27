@@ -8,6 +8,8 @@ body {
     margin: 26px 72px;
 }
 
+/* --------- main --------- */
+
 .main {
     display: flex;
     align-items: flex-end;
@@ -49,6 +51,8 @@ hr {
     color: #ccc;
 }
 
+/* --- personal profile --- */
+
 .personal-profile-content {
     display: flex;
     flex-wrap: wrap;
@@ -66,4 +70,33 @@ hr {
 .column-right {
     line-height: 200%;
     margin-right: auto;
+}
+
+/* ------ education ------ */
+
+.education-content {
+    display: flex;
+    margin-bottom: 53px;
+}
+
+.education-left {
+    text-align: right;
+    font-weight: 700;
+    margin: 0px 10px 0px 0px;
+    margin-left: auto;
+}
+
+.education-right {
+    margin-right: auto;
+    font-weight: 500;
+}
+
+.light-italic {
+    font-style: italic;
+    opacity: 60%;
+}
+
+span {
+    font-weight: 400;
+    opacity: 60%;
 }
