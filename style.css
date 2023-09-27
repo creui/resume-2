@@ -39,3 +39,7 @@ h1 {
 div > p {
     margin: 0;
 }
+
+hr {
+    color: #ccc;
+}
